@@ -1,0 +1,15 @@
+.wedocs-single-wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 120px 15px;
+}
+.wedocs-single-wrap .wedocs-single-content ol.wedocs-breadcrumb{
+    display:none;
+}
+pre.wp-block-code {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+.blog-details-footer {
+    display: block;
+}

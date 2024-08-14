@@ -1,0 +1,108 @@
+/* Gallery area */
+
+.gallery-area {
+    position: relative;
+    z-index: 2;
+}
+
+.gallery-sahapes {
+    img {
+        position: absolute;
+        z-index: -1;
+        &:nth-child(1) {
+            top: 100px;
+            right: 0;
+        }
+        &:nth-child(2) {
+            bottom: 50px;
+            left: 0;
+        }
+    }
+}
+
+.gallery-wrapper {
+    max-width: 1050px;
+    margin: auto;
+    position: relative;
+    &-shapes {
+        img {
+            position: absolute;
+            z-index: 9;
+            &:nth-child(1) {
+                left: -50px;
+                top: 70px;
+                @include responsive(sm) {
+                    left: 0;
+                }
+            }
+            &:nth-child(2) {
+                right: -50px;
+                bottom: 50px;
+                @include responsive(sm) {
+                    right: 0;
+                }
+            }
+        }
+    }
+    &-flex {
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+    &-single {
+        position: relative;
+        width: calc((100% / 2) - 12px);
+        @include responsive(xxs) {
+            width: 100%;
+        }
+        img {
+            border-radius: 10px;
+        }
+        &:nth-child(2n+2) {
+            padding-right: 240px;
+            align-self: flex-end;
+            @include responsive(allPhone) {
+                padding-right: 150px;
+            }
+            @include responsive(sm) {
+                padding-right: 100px;
+            }
+            @include responsive(xs) {
+                padding-right: 75px;
+            }
+            @include responsive(xxs) {
+                padding-right: 0px;
+                text-align: center;
+            }
+        }
+        &:nth-child(2n+3) {
+            padding-left: 140px;
+            text-align: right;
+            @include responsive(allPhone) {
+                padding-left: 0;
+            }
+            @include responsive(xxs) {
+                text-align: center;
+            }
+            img {
+                height: 465px;
+                object-fit: cover;
+                @include responsive(sm) {
+                    height: 300px;
+                }
+                @include responsive(xs) {
+                    height: auto;
+                }
+            }
+        }
+        &:nth-child(2n+4) {
+            padding-right: 0px;
+            align-self: flex-start;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

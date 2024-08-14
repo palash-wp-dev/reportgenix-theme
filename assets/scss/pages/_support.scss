@@ -1,0 +1,154 @@
+/* Support area */
+
+.support-area {}
+
+.support-area-wrapper {}
+
+.support-wrapper-padding {
+    padding: 60px 50px;
+    @include responsive(xs) {
+        padding: 60px 30px;
+    }
+    @include responsive(xxs) {
+        padding: 60px 20px;
+    }
+}
+
+.support-wrapper-image {
+    &.demo-style {
+        gap: 24px;
+        display: flex;
+        @include responsive(xxs) {
+            flex-wrap: wrap;
+        }
+        .support-wrapper-image {
+            &-thumb {
+                padding-top: 70px;
+                max-width: 320px;
+                @include transition(.3s);
+                @include responsive(xxs) {
+                    padding-top: 0;
+                }
+                img {
+                    background-color: $white;
+                    padding: 10px;
+                }
+                &:nth-child(2n+2) {
+                    padding-top: 0;
+                    &::before {
+                        top: -50px;
+                        left: auto;
+                        right: -30px;
+                    }
+                }
+                &::before {
+                    top: auto;
+                    bottom: -20px;
+                    left: -50px;
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    &.client-review-style {
+        .support-wrapper-image {
+            &-thumb {
+                margin-left: 180px;
+                max-width: 340px;
+                @include transition(.3s);
+                @include responsive(xs) {
+                    margin-left: 120px;
+                }
+                @include responsive(xxs) {
+                    margin-left: 100px;
+                }
+                @include responsive(xxs) {
+                    margin-left: 0px;
+                }
+                &:hover {
+                    position: relative;
+                    z-index: 9 !important;
+                }
+                img {
+                    background-color: $white;
+                    padding: 10px;
+                }
+                &:nth-child(2n+2) {
+                    margin-left: 0;
+                    margin-top: -150px;
+                    position: relative;
+                    z-index: 0;
+                    max-width: 280px;
+                    @include transition(.3s);
+                    @include responsive(xxs) {
+                        margin-top: 25px;
+                    }
+                    &::before {
+                        top: auto;
+                        bottom: -30px;
+                        left: -30px;
+                    }
+                }
+                &::before {
+                    top: -30px;
+                    left: auto;
+                    right: -30px;
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+    &-thumb {
+        position: relative;
+        z-index: 2;
+        @include transition(.3s);
+        &:hover {
+            &::before {
+                background-color: rgba(var(--main-color-one-rgb), .4);
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 280px;
+            width: 280px;
+            background-color: rgba(var(--main-color-one-rgb), .1);
+            z-index: -2;
+            border-radius: 50%;
+            @include transition(.3s);
+        }
+        img {}
+    }
+}
+
+.support-wrapper {
+    max-width: 520px;
+    &-contents {
+        &-title {
+            font-size: 32px;
+            line-height: 42px;
+            @include responsive(xs) {
+                font-size: 30px;
+                line-height: 36px;
+            }
+            @include responsive(xxs) {
+                font-size: 28px;
+            }
+            @include responsive(vxxs) {
+                font-size: 26px;
+            }
+        }
+        &-para {
+            font-size: 16px;
+            line-height: 28px;
+            color: var(--light-color);
+        }
+        .btn-wrapper {
+            .cmn-btn {}
+        }
+    }
+}

@@ -1,0 +1,159 @@
+/* Category Banner */
+
+.category-banner {
+    position: relative;
+}
+
+.category-banner-padding {
+    padding: 60px 0;
+}
+
+.category-banner-shapes {
+    img {
+        position: absolute;
+        bottom: 100px;
+        left: 100px;
+        z-index: -1;
+    }
+}
+
+.category-banner-contents {
+    &-title {
+        font-size: 42px;
+        line-height: 50px;
+        font-weight: 600;
+        @include responsive(xl) {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        @include responsive(lg) {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        @include responsive(allPhone) {
+            font-size: 32px;
+            line-height: 42px;
+        }
+        @include responsive(xs) {
+            font-size: 30px;
+            line-height: 36px;
+        }
+        @include responsive(xxs) {
+            font-size: 28px;
+        }
+        @include responsive(vxxs) {
+            font-size: 26px;
+        }
+    }
+    &-para {
+        font-size: 16px;
+        line-height: 28px;
+        color: var(--light-color);
+    }
+    .btn-wrapper {
+        .cmn-btn {
+            line-height: 30px;
+            @include responsive(lg) {
+                padding: 7px 25px;
+            }
+            @include responsive(xl) {
+                padding: 7px 28px;
+            }
+        }
+    }
+}
+
+.category-banner-image {
+    &-thumb {
+        position: relative;
+        z-index: 2;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            @include transform(translateX(-50%));
+            top: 80px;
+            background-color: var(--main-color-one);
+            height: 330px;
+            width: 330px;
+            border-radius: 0 50% 50% 50%;
+            z-index: -1;
+            @include responsive(xxl) {
+                height: 320px;
+                width: 320px;
+            }
+            @include responsive(xl) {
+                height: 280px;
+                width: 280px;
+            }
+            @include responsive(lg) {
+                height: 250px;
+                width: 250px;
+            }
+            @include responsive(sm) {
+                height: 300px;
+                width: 300px;
+            }
+            @include responsive(xs) {
+                height: 230px;
+                width: 230px;
+            }
+            @include responsive(vxxs) {
+                height: 180px;
+                width: 180px;
+            }
+        }
+        &-single {
+            img {}
+        }
+        &-shape {
+            img {
+                position: absolute;
+                left: 0px;
+                top: 80px;
+                z-index: 3;
+                animation: 5s scaleUp linear infinite;
+            }
+        }
+        img {}
+    }
+    &-wrapper {
+        position: relative;
+        z-index: 1;
+    }
+    &-price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        font-size: 20px;
+        background-color: var(--main-color-one);
+        color: $white;
+        border-radius: 50%;
+    }
+    &-price-shape {
+        z-index: 2;
+        display: inline-block;
+        position: absolute;
+        right: -30px;
+        bottom: 70px;
+        @include responsive(xxl) {
+            right: -10px;
+        }
+        @include responsive(xl) {
+            right: -10px;
+        }
+        @include responsive(lg) {
+            right: 0px;
+        }
+        @include responsive(allPhone) {
+            right: 0px;
+        }
+        img {
+            position: absolute;
+            right: 30px;
+            top: -30px;
+        }
+    }
+}

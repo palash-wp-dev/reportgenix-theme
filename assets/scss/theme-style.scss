@@ -1,0 +1,82 @@
+/* Custom Container */
+
+.container_1430 {
+    max-width: 1435px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl,
+.container_1430 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.single-blog-details-thumb .post-thumbnail {
+    margin-bottom: 80px;
+}
+.single-blog-contents-title {
+    word-break: break-word;
+}
+.single-blog-thumb img {
+    height: auto;
+}
+/* Theme Style */
+
+
+/* Abstract */
+
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+/* Theme Global */
+
+@import "base/global";
+
+/* Components */
+
+@import "components/form";
+@import "components/button";
+@import "components/section_title";
+@import "components/price_updated";
+@import "components/checkbox";
+@import "components/pagination";
+
+/* Page */
+
+@import "pages/breadcrumb";
+@import "pages/banner";
+@import "pages/product_selling";
+@import "pages/choose";
+@import "pages/work";
+@import "pages/customer";
+@import "pages/blog";
+@import "pages/talk";
+@import "pages/newsletter";
+@import "pages/gallery";
+@import "pages/join";
+@import "pages/achieve";
+@import "pages/experties";
+@import "pages/price_plan";
+@import "pages/faq";
+@import "pages/wordpress_theme";
+@import "pages/category_banner";
+@import "pages/banner_bottom_menu";
+@import "pages/features";
+@import "pages/support";
+@import "pages/payment_card";
+@import "pages/sms_gateway";
+@import "pages/product_details";
+@import "pages/sidebar_style";
+@import "pages/blog_details";
+@import "pages/search_docs";
+@import "pages/contact";
+@import "pages/signin_signup";
+@import "pages/search_suggestion";
+@import "pages/megamenu_style";

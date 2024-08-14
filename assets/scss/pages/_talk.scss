@@ -1,0 +1,49 @@
+/* Talk area */
+
+.talk-area {}
+
+.single-talk-wrapper {
+    &-bottom {
+        &-item {
+            font-size: 16px;
+            font-weight: 400;
+            @include transition(300ms);
+            &:hover {
+                a {
+                    color: var(--main-color-one);
+                }
+            }
+            a {
+                color: var(--heading-color);
+                font-weight: 600;
+                @include transition(300ms);
+            }
+        }
+        &-call {
+            display: block;
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--heading-color);
+            @include transition(300ms);
+            &:hover {
+                color: var(--main-color-one);
+            }
+        }
+    }
+}
+
+.bg-white {}
+
+.talk-wrapper-form {
+    @include box-shadow(0, 0, 20px, rgba($steam-color, .4));
+    &-label {
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 500;
+        margin: -6px 0 0;
+    }
+}
+
+.talk-wrapper-form-padding {
+    padding: 40px;
+}

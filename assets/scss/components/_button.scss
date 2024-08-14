@@ -1,0 +1,175 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+
+.btn-wrapper {
+    display: block;
+    gap: 15px;
+    .cmn-btn {
+        color: var(--paragraph-color);
+        font-size: 16px;
+        font-weight: 500;
+        display: inline-block;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        line-height: 34px;
+        padding: 7px 35px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        @include transition($transition);
+        @include responsive(xs) {
+            padding: 7px 25px;
+            font-size: 15px;
+            line-height: 28px;
+        }
+        @include responsive(vxxs) {
+            padding: 5px 15px;
+            font-size: 14px;
+        }
+        &.btn-bg-1 {
+            background: var(--main-color-one);
+            color: $white;
+            border: 2px solid var(--main-color-one);
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0%;
+                background-color: #fff;
+                transition: all .5s;
+            }
+            &:hover {
+                background-color: unset;
+                color: var(--main-color-one);
+                &::before {
+                    width: 100%;
+                    z-index: -1;
+                }
+            }
+        }
+        &.btn-bg-adminPanel {
+            background: var(--admin-panel-color);
+            color: $white;
+            border: 2px solid var(--admin-panel-color);
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0%;
+                background-color: #fff;
+                transition: all .5s;
+            }
+            &:hover {
+                background-color: unset;
+                color: var(--admin-panel-color);
+                &::before {
+                    width: 100%;
+                    z-index: -1;
+                }
+            }
+        }
+        &.btn-bg-userPanel {
+            background: var(--user-panel-color);
+            color: $white;
+            border: 2px solid var(--user-panel-color);
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0%;
+                background-color: #fff;
+                transition: all .5s;
+            }
+            &:hover {
+                background-color: unset;
+                color: var(--user-panel-color);
+                &::before {
+                    width: 100%;
+                    z-index: -1;
+                }
+            }
+        }
+        &.btn-bg-white {
+            background: $white;
+            color: var(--heading-color);
+            &:hover {
+                background: var(--main-color-one);
+                color: $white;
+            }
+        }
+        &.btn-medium {
+            padding: 7px 25px;
+            @include responsive(vxxs) {
+                padding: 5px 15px;
+                font-size: 14px;
+            }
+        }
+        &.btn-small {
+            padding: 5px 18px;
+            @include responsive(vxxs) {
+                padding: 5px 15px;
+                font-size: 14px;
+            }
+        }
+        &.btn-outline-1 {
+            padding: 7px 33px;
+            border: 2px solid var(--main-color-one);
+            background-color: unset;
+            position: relative;
+            z-index: 3;
+            &.color-one {
+                color: var(--main-color-one);
+            }
+            @include responsive(xs) {
+                padding: 7px 23px;
+                font-size: 15px;
+                line-height: 28px;
+            }
+            @include responsive(vxxs) {
+                padding: 5px 13px;
+                font-size: 14px;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 0%;
+                background-color: var(--main-color-one);
+                transition: all .5s;
+                visibility: hidden;
+                opacity: 0;
+                z-index: -1;
+            }
+            &:hover {
+                color: $white;
+                &::before {
+                    width: 100%;
+                    visibility: visible;
+                    opacity: 1;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+
+.support-check-btn {
+    color: var(--heading-color);
+    text-decoration: underline;
+    display: inline-block;
+    font-weight: 500;
+    @include transition(.3s);
+    &:hover {
+        color: var(--main-color-one);
+    }
+}

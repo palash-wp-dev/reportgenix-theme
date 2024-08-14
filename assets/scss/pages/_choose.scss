@@ -1,0 +1,61 @@
+/* Choose area */
+
+.single-choose-border {
+    border: 2px solid rgba(var(--main-color-one-rgb), .2);
+}
+
+.single-choose-padding {
+    padding: 40px;
+    @include responsive(xl) {
+        padding: 30px;
+    }
+    @include responsive(allPhone) {
+        padding: 30px;
+    }
+    @include responsive(sm) {
+        padding: 30px 20px;
+    }
+}
+
+.choose-area {
+    position: relative;
+    z-index: 1;
+}
+
+.choose-line-shape {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    @include transform(translateY(-50%));
+    z-index: -1;
+}
+
+.single-choose {
+    @include transition(400ms);
+    &:hover {
+        @include transform(translateY(-5px));
+    }
+    &-contents {
+        &-title {
+            font-size: 28px;
+            line-height: 36px;
+            margin: -6px 0 0;
+            @include responsive(sm) {
+                font-size: 26px;
+            }
+            @include responsive(xxs) {
+                font-size: 24px;
+            }
+        }
+        &-para {
+            font-size: 16px;
+            line-height: 26px;
+            @include responsive(xxs) {
+                font-size: 15px;
+            }
+            @include responsive(vxxs) {
+                font-size: 14px;
+            }
+        }
+    }
+}

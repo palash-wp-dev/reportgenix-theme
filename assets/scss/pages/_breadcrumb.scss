@@ -1,0 +1,101 @@
+/* Breadcrumb Css */
+
+.breadcrumb-area {
+    padding: 50px 0;
+    margin: 0 100px;
+    position: relative;
+    @include responsive(xxl) {
+        margin: 0 50px;
+    }
+    @include responsive(xl) {
+        margin: 0 30px;
+    }
+    @include responsive(lg) {
+        margin: 0 20px;
+    }
+    @include responsive(allPhone) {
+        margin: 0 30px;
+    }
+    @include responsive(xs) {
+        margin: 0 10px;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #FFF0EF;
+        border-radius: 10px;
+        z-index: -1;
+    }
+}
+
+.breadcrumb-shapes {
+    @include responsive(sm) {
+        display: none;
+    }
+    img {
+        &:nth-child(1) {
+            position: absolute;
+            bottom: 40px;
+            left: 100px;
+            @include responsive(lg) {
+                left: 20px;
+            }
+            @include responsive(allPhone) {
+                left: 0px;
+            }
+        }
+        &:nth-child(2) {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            @include responsive(allPhone) {
+                right: 0px;
+            }
+        }
+    }
+}
+
+.breadcrumb-inner {
+    display: block;
+    text-align: center;
+    .page-title {
+        font-size: 42px;
+        line-height: 55px;
+        margin: -10px 0 0;
+    }
+    p {
+        margin-top: 10px;
+    }
+    .page-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        margin: 0;
+        margin-top: 10px;
+        li {
+            position: relative;
+            &:not(:last-child) {
+                padding-right: 20px;
+            }
+            &:not(:first-child) {
+                padding-left: 20px;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    height: 50%;
+                    width: 2px;
+                    background-color: var(--paragraph-color);
+                }
+            }
+        }
+    }
+}

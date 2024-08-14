@@ -1,0 +1,19 @@
+/* payment area */
+
+.sms-area {}
+
+.sms-wrapper {}
+
+.sms-wrapper-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    &-single {
+        img {
+            max-width: 60px;
+            border-radius: 50%;
+        }
+    }
+}

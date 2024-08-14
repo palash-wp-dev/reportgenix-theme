@@ -1,0 +1,86 @@
+/* Achieve area */
+
+.achieve-area {}
+
+.achieve-image-wrapper {
+    position: relative;
+    z-index: 2;
+    &-shapes {
+        img {
+            position: absolute;
+            z-index: 5;
+            &:nth-child(1) {
+                left: -50px;
+                top: 100px;
+                @include responsive(sm) {
+                    left: 0;
+                }
+            }
+            &:nth-child(2) {
+                bottom: -30px;
+                right: 30px;
+            }
+        }
+    }
+    &-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: var(--main-color-one);
+        border: 3px solid $white;
+        position: absolute;
+        top: 50%;
+        left: 240px;
+        @include transform(translateY(-50%));
+        @include responsive(xl) {
+            left: 195px;
+        }
+        @include responsive(lg) {
+            left: 150px;
+        }
+        @include responsive(xs) {
+            left: 50%;
+            @include transform(translate(-50%, -50%));
+        }
+    }
+    &-flex {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        @include responsive(vxxs) {
+            flex-wrap: wrap;
+            display: block;
+        }
+    }
+}
+
+.achieve-image {
+    flex: 1;
+    @include responsive(vxxs) {
+        width: 100%;
+    }
+    &:nth-child(2n+1) {
+        max-width: 280px;
+        @include responsive(xl) {
+            max-width: 235px;
+        }
+        @include responsive(lg) {
+            max-width: 190px;
+        }
+        @include responsive(xs) {
+            max-width: 100%;
+        }
+        @include responsive(vxxs) {
+            margin-bottom: 25px;
+        }
+        img {
+            @include responsive(vxxs) {
+                width: 100%;
+            }
+        }
+    }
+    img {}
+}

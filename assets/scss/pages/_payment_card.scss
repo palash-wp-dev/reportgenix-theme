@@ -1,0 +1,53 @@
+/* payment area */
+
+.payment-area {}
+
+.payment-wrapper {}
+
+.payment-wrapper-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    &-card {
+        background-color: $white;
+        border: 2px solid $white;
+        width: 135px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+        @include box-shadow(0, 0, 10px, rgba($steam-color, .4));
+        width: calc((100% / 8) - 21px);
+        @include transition(.3s);
+        @include responsive(xl) {
+            width: calc((100% / 5) - 20px);
+        }
+        @include responsive(lg) {
+            width: calc((100% / 5) - 20px);
+        }
+        @include responsive(allPhone) {
+            width: calc((100% / 4) - 18px);
+        }
+        @include responsive(xs) {
+            width: calc((100% / 3) - 16px);
+        }
+        @include responsive(xxs) {
+            width: calc((100% / 2) - 12px);
+        }
+        &:hover {
+            background-color: unset;
+            border-color: var(--main-color-one);
+            @include transform(scale(1.2))
+        }
+        img {
+            max-width: 120px;
+            @include responsive(xxl) {
+                max-width: 100px;
+            }
+            @include responsive(allPhone) {
+                max-width: 100px;
+            }
+        }
+    }
+}

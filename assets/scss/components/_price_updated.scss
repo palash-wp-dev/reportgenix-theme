@@ -1,0 +1,23 @@
+/* Price Updated Through */
+
+.center-text {
+    .price-updated {
+        @include responsive(vxxs) {
+            justify-content: center;
+        }
+    }
+}
+
+.price-updated {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &-new {
+        color: var(--heading-color);
+        font-size: 28px;
+        line-height: 36px;
+    }
+    &-old {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,1482 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Attorg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-16 08:47+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: inc/breadcrumb.php:202
+#, php-format
+msgid " ( Page %s )"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:219
+#: inc/class-attorg-helper-functions.php:238
+msgid " of "
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:240
+msgid " Page Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:295
+msgid " Post Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:191
+#: inc/theme-settings/csf-options.php:232
+#: inc/theme-settings/csf-options.php:367
+#: inc/theme-settings/csf-options.php:461
+msgid "(888) 123 4567"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:350
+msgid "...."
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:31
+msgid "01. Main Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:70
+msgid "02. Header One Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:109
+msgid "03. Header Two Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:164
+msgid "04. Header Three Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:203
+msgid "05. Header Four Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:258
+msgid "06. Header Five Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:317
+msgid "07. Sidebar"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:349
+msgid "08. Footer"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+msgid "1 Comment"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields-value.php:199
+#: inc/theme-settings/csf-options.php:691
+msgid "404"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:672
+msgid "404 Page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:678
+msgid "404 Page Options"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:14
+msgid "Add Shortcode"
+msgstr ""
+
+#: inc/class-attorg-init.php:142 inc/class-attorg-init.php:151
+#: inc/class-attorg-init.php:162 inc/class-attorg-init.php:171
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:760
+msgid "Archive"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:757
+msgid "Archive Page"
+msgstr ""
+
+#. Name of the theme
+msgid "Attorg"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:21
+msgid "Attorg Options"
+msgstr ""
+
+#: footer.php:11
+msgid "Attorg Theme Developed by Ir-Tech"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Attorg – is the perfec tLawyer &amp; Attorney WordPress Theme. Attorg  is a "
+"better way to present your aw,law firm ,barrister, attorney and legal "
+"website. It’s easy to customize and also well documented"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:98
+msgid "Attorney Info"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:93
+msgid "Attorney Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:789
+msgid "Attorney Page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:795
+msgid "Attorney Single Page Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:30
+msgid "Author - "
+msgstr ""
+
+#: inc/breadcrumb.php:144
+msgid "Author archive for: "
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields-value.php:202
+msgid "Back To Home"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:712
+msgid "back to home"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:66
+msgid "Back Top"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:73
+msgid "Back Top Icon"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:62
+msgid "Back Top Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:54
+msgid "Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:538
+msgid "Background Image"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:938
+msgid "Backup & Import"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:744
+msgid "Blog"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:652
+#: inc/theme-settings/csf-options.php:741
+msgid "Blog Page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:650
+msgid "Blog Post"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:644
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:752
+msgid "Blog Single"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:659
+#: inc/theme-settings/csf-options.php:749
+msgid "Blog Single Page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:838
+msgid "Body Font Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:869
+#: inc/theme-settings/csf-options.php:914
+msgid "Bold 700"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:521
+#: inc/theme-settings/csf-options.php:531
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:527
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:142
+#: inc/theme-settings/csf-options.php:183
+#: inc/theme-settings/csf-options.php:224
+#: inc/theme-settings/csf-options.php:311
+#: inc/theme-settings/csf-options.php:352
+#: inc/theme-settings/csf-options.php:398
+#: inc/theme-settings/csf-options.php:446
+#: inc/theme-settings/csf-options.php:492
+msgid "Button"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:359
+#: inc/theme-settings/csf-options.php:453
+msgid "Button Icon"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:156
+#: inc/theme-settings/csf-options.php:197
+#: inc/theme-settings/csf-options.php:238
+#: inc/theme-settings/csf-options.php:325
+#: inc/theme-settings/csf-options.php:380
+#: inc/theme-settings/csf-options.php:412
+#: inc/theme-settings/csf-options.php:474
+#: inc/theme-settings/csf-options.php:506
+msgid "Button Link"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:373
+#: inc/theme-settings/csf-options.php:467
+msgid "Button Subtitle"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:149
+#: inc/theme-settings/csf-options.php:318
+#: inc/theme-settings/csf-options.php:405
+#: inc/theme-settings/csf-options.php:499
+#: inc/theme-settings/csf-options.php:709
+msgid "Button Text"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:190
+#: inc/theme-settings/csf-options.php:231
+#: inc/theme-settings/csf-options.php:366
+#: inc/theme-settings/csf-options.php:460
+msgid "Button Title"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:274
+msgid "By "
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:374
+#: inc/theme-settings/csf-options.php:468
+msgid "Call Us For Query"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:784
+msgid "Case Study Single Area"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:781
+msgid "Case Study Single Page"
+msgstr ""
+
+#: inc/class-attorg-init.php:169
+msgid "Case Study Widget Area"
+msgstr ""
+
+#: comments.php:96
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comments &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments "
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/theme-settings/csf-metabox.php:165
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:159
+msgid "Contact Info"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:87
+msgid "Contact With Me"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:260
+msgid "Content Area"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:387
+msgid "Copyright Area Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:627
+msgid "Copyright Area Bottom Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:382
+msgid "Copyright Area Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:602
+msgid "Copyright Area Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:609
+msgid "Copyright Area Text"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:393
+msgid "Copyright Area Text Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:615
+msgid "Copyright Area Top Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:104
+msgid "Designation"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:97
+#: inc/theme-settings/csf-customizer.php:152
+#: inc/theme-settings/csf-customizer.php:191
+#: inc/theme-settings/csf-customizer.php:246
+#: inc/theme-settings/csf-customizer.php:301
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:92
+#: inc/theme-settings/csf-customizer.php:147
+#: inc/theme-settings/csf-customizer.php:186
+#: inc/theme-settings/csf-customizer.php:241
+#: inc/theme-settings/csf-customizer.php:296
+msgid "Dropdown Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:103
+#: inc/theme-settings/csf-customizer.php:158
+#: inc/theme-settings/csf-customizer.php:197
+#: inc/theme-settings/csf-customizer.php:252
+#: inc/theme-settings/csf-customizer.php:307
+msgid "Dropdown Text Color"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:59
+#: inc/theme-settings/csf-metabox.php:119
+msgid "Email"
+msgstr ""
+
+#: comments.php:78
+msgid "Email..."
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:31
+msgid "enter <mark>video url</mark> to show in frontend"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:256
+msgid ""
+"enter title for info bar <mark> shortcode</mark> it will not show in frontend"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:30
+msgid "Enter Video URL"
+msgstr ""
+
+#: inc/breadcrumb.php:196 inc/class-attorg-hook-customize.php:85
+msgid "Error 404"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:361
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:347
+msgid "Excerpt More"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:870
+#: inc/theme-settings/csf-options.php:915
+msgid "Extra Bold 800"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:557
+msgid "Footer"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:360
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:586
+msgid "Footer Bottom Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:598
+msgid "Footer Copyright Area Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:355
+#: inc/theme-settings/csf-options.php:563
+msgid "Footer Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:567
+msgid "Footer Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:574
+msgid "Footer Top Spacing"
+msgstr ""
+
+#: inc/class-attorg-init.php:149
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:366
+msgid "Footer Widget Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:377
+msgid "Footer Widget Text Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:371
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:150
+#: inc/theme-settings/csf-options.php:319
+#: inc/theme-settings/csf-options.php:406
+#: inc/theme-settings/csf-options.php:500
+msgid "Free Consultation"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:36
+msgid "Gallery Post Format Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:37
+msgid "General"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:63
+msgid "Header & Breadcrumb"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:281
+msgid "Header Five"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:205
+msgid "Header Four"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:91
+msgid "Header One"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:427
+msgid "Header Seven"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:333
+msgid "Header Six"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:164
+msgid "Header Three"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:111
+msgid "Header Two"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:86
+msgid "Headers Settings"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:881
+msgid "Heading Font"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:876
+msgid "Heading Font Options"
+msgstr ""
+
+#: inc/breadcrumb.php:12
+msgid "Home"
+msgstr ""
+
+#. URI of the theme
+msgid "https://irtech.biz/wp/attorg"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/ir-tech/portfolio"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:31
+#: inc/theme-settings/csf-shortcode-options.php:57
+#: inc/theme-settings/csf-shortcode-options.php:84
+#: inc/theme-settings/csf-metabox.php:85 inc/theme-settings/csf-metabox.php:146
+msgid "Icon"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:928
+msgid "Import / Export"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:120
+#: inc/theme-settings/csf-customizer.php:214
+#: inc/theme-settings/csf-customizer.php:269
+msgid "Info Bar Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:115
+#: inc/theme-settings/csf-customizer.php:209
+#: inc/theme-settings/csf-customizer.php:264
+#: inc/theme-settings/csf-options.php:130
+#: inc/theme-settings/csf-options.php:244
+#: inc/theme-settings/csf-options.php:299
+#: inc/theme-settings/csf-options.php:386
+#: inc/theme-settings/csf-options.php:480
+msgid "Info Bar Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:126
+#: inc/theme-settings/csf-customizer.php:220
+#: inc/theme-settings/csf-customizer.php:275
+msgid "Info Bar Text Color"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:76
+msgid "Info Item Text"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:49
+msgid "Info Item Two"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:23
+msgid "Inline Info Link"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:16
+msgid "Insert Shortcode"
+msgstr ""
+
+#. Author of the theme
+msgid "Ir Tech"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields-value.php:201
+#: inc/theme-settings/csf-options.php:705
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-attorney-single.php:63
+#: inc/theme-settings/csf-metabox.php:124
+msgid "Languages"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:58
+msgid "Layout & Colors"
+msgstr ""
+
+#: comments.php:88
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:89
+#, php-format
+msgid "Leave A Reply To %s"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:263
+msgid "Left Content"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:135
+#: inc/theme-settings/csf-options.php:304
+#: inc/theme-settings/csf-options.php:391
+#: inc/theme-settings/csf-options.php:485
+msgid "Left Side Content"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:865
+#: inc/theme-settings/csf-options.php:910
+msgid "Light 300"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:67
+msgid "Link"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/class-attorg-helper-functions.php:286
+msgctxt "list item separator"
+msgid " "
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:861
+#: inc/theme-settings/csf-options.php:906
+msgid "Load Font Variant"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:51
+#: inc/theme-settings/csf-metabox.php:109
+msgid "Location"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:103
+#: inc/theme-settings/csf-options.php:123
+#: inc/theme-settings/csf-options.php:176
+#: inc/theme-settings/csf-options.php:217
+#: inc/theme-settings/csf-options.php:293
+#: inc/theme-settings/csf-options.php:345
+#: inc/theme-settings/csf-options.php:439
+msgid "Logo"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:98 inc/theme-settings/csf-options.php:118
+#: inc/theme-settings/csf-options.php:212
+#: inc/theme-settings/csf-options.php:288
+msgid "Logo Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:171
+msgid "Logos Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:359
+msgid "Long"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:867
+#: inc/theme-settings/csf-options.php:912
+msgid "Medium 500"
+msgstr ""
+
+#: comments.php:75
+msgid "Name..."
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:81
+#: inc/theme-settings/csf-customizer.php:136
+#: inc/theme-settings/csf-customizer.php:175
+#: inc/theme-settings/csf-customizer.php:230
+#: inc/theme-settings/csf-customizer.php:285
+msgid "Nav Bar Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:76
+#: inc/theme-settings/csf-customizer.php:131
+#: inc/theme-settings/csf-customizer.php:170
+#: inc/theme-settings/csf-customizer.php:225
+#: inc/theme-settings/csf-customizer.php:280
+msgid "Nav Bar Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:87
+#: inc/theme-settings/csf-customizer.php:142
+#: inc/theme-settings/csf-customizer.php:181
+#: inc/theme-settings/csf-customizer.php:236
+#: inc/theme-settings/csf-customizer.php:291
+msgid "Nav Bar Text Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:340
+#: inc/theme-settings/csf-options.php:434
+msgid "Navbar Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:92
+msgid "Navbar Type"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:299
+#: template-parts/content-single.php:68
+msgid "Next Post"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:112
+#: inc/theme-settings/csf-group-fields.php:121
+#: inc/theme-settings/csf-group-fields.php:137
+#: inc/theme-settings/csf-group-fields.php:176
+#: inc/theme-settings/csf-group-fields.php:303
+#: inc/theme-settings/csf-group-fields.php:312
+#: inc/theme-settings/csf-group-fields.php:324
+#: inc/theme-settings/csf-group-fields.php:333
+#: inc/theme-settings/csf-group-fields.php:372
+#: inc/theme-settings/csf-group-fields.php:381
+#: inc/theme-settings/csf-group-fields.php:390
+msgid "No"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields-value.php:200
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:698
+msgid "Oops! That page can’t be found."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:63
+#: inc/theme-settings/csf-group-fields.php:256
+#: inc/theme-settings/csf-options.php:683
+#: inc/theme-settings/csf-options.php:800
+msgid "Page Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:118
+msgid "Page Breadcrumb"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:69
+msgid "Page Content Background Color"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:173
+msgid "Page Content Spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:168
+msgid "Page Content Spacing Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:134
+msgid "Page Full Width"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:88
+msgid "Page Header & Breadcrumb Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:46
+msgid "Page Layouts & Colors Options"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:54
+msgid "Page Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:157
+#: inc/theme-settings/csf-group-fields.php:181
+#: inc/theme-settings/csf-group-fields.php:193
+#: inc/theme-settings/csf-group-fields.php:272
+#: inc/theme-settings/csf-options.php:727
+#: inc/theme-settings/csf-options.php:816
+msgid "Page Spacing Bottom"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:205
+msgid "Page Spacing Left"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:142
+msgid "Page Spacing Options"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:217
+msgid "Page Spacing Right"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:146
+#: inc/theme-settings/csf-group-fields.php:261
+#: inc/theme-settings/csf-options.php:716
+#: inc/theme-settings/csf-options.php:805
+msgid "Page Spacing Top"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:109
+msgid "Page Title"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:129
+msgid "Page Width & Padding Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:666
+msgid "Pages Settings"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:188
+msgid "Pages:"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:702
+msgid "Paragraph"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:55
+#: inc/theme-settings/csf-metabox.php:114
+msgid "Phone"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:43
+msgid "Position"
+msgstr ""
+
+#. %s: post author.
+#: inc/class-attorg-helper-functions.php:273
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/class-attorg-helper-functions.php:260
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:387
+msgid "Post Share"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:300
+msgid "Posted By"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:321
+#: inc/theme-settings/csf-group-fields.php:369
+msgid "Posted Category"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:309
+msgid "Posted On"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:378
+msgid "Posted Tags"
+msgstr ""
+
+#: template-parts/content-attorney-single.php:47
+msgid "Practice Areas"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:76
+msgid "Practice Options"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:776
+msgid "Practice Single Area"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:773
+msgid "Practice Single Page"
+msgstr ""
+
+#: inc/class-attorg-init.php:160
+msgid "Practice Widget Area"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:47
+msgid "Preloader"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:43
+msgid "Preloader Options"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:298
+msgid "Prev Post"
+msgstr ""
+
+#: template-parts/content-single.php:65
+msgid "Previous Post"
+msgstr ""
+
+#: inc/class-attorg-init.php:84
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/class-attorg-excerpt.php:61 inc/theme-settings/csf-group-fields.php:341
+#: template-parts/common/post-excerpt.php:5
+msgid "Read More"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:330
+msgid "Read More Button"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:339
+msgid "Read More Text"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:358
+msgid "Regular"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:866
+#: inc/theme-settings/csf-options.php:911
+msgid "Regular 400"
+msgstr ""
+
+#: inc/comments-modifications.php:49
+msgid "Reply"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:264
+msgid "Right Content"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:419
+#: inc/theme-settings/csf-options.php:513
+msgid "Right Side Content"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:768
+msgid "Search"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:765
+msgid "Search Page"
+msgstr ""
+
+#: inc/class-attorg-hook-customize.php:87
+msgid "Search Results for:"
+msgstr ""
+
+#: inc/breadcrumb.php:191
+msgid "Searched for: "
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:46
+msgid "select <mark>gallery photos</mark> to show in frontend"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:15
+msgid "Select a shortcode"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:45
+msgid "Select Gallery Photos"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:51
+#: inc/theme-settings/csf-group-fields.php:245
+msgid "Select Page Layout"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:868
+#: inc/theme-settings/csf-options.php:913
+msgid "Semi Bold 600"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:266
+msgid "set content for info bar <mark> shortcode</mark>."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:357
+msgid "Short"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:249
+#: inc/theme-settings/csf-options.php:271
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/class-attorg-init.php:140
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:323
+msgid "Sidebar Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:328
+msgid "Sidebar Widget Border Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:340
+msgid "Sidebar Widget Text Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:334
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:657
+msgid "Single Post"
+msgstr ""
+
+#: header.php:30
+msgid "Skip to content"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:129
+#: inc/theme-settings/csf-metabox.php:135
+msgid "Social Info"
+msgstr ""
+
+#: inc/class-attorg-helper-functions.php:174
+msgid "Something went wrong please try again"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:695
+msgid "Sub Title"
+msgstr ""
+
+#: comments.php:81
+msgid "Subject..."
+msgstr ""
+
+#: comments.php:94
+msgid "Submit Comment"
+msgstr ""
+
+#. 1: list of tags.
+#: inc/class-attorg-helper-functions.php:289
+msgid "Tags: "
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:36
+#: inc/theme-settings/csf-shortcode-options.php:89
+msgid "Text"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:52
+msgid "Theme Heading Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:38
+msgid "Theme Main Color"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:17
+msgid "Theme Options"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:59
+msgid "Theme Paragraph Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:45
+msgid "Theme Secondary Color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:54
+msgid ""
+"This is theme heading color, means it'll affect all of heading tag like, h1,"
+"h2,h3,h4,h5,h6"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:61
+msgid ""
+"This is theme paragraph color, means it'll affect all of body/paragraph tag "
+"like, p,li,a etc"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:40
+msgid ""
+"This is theme primary color, means it'll affect most of elements that have "
+"default color of our theme primary color"
+msgstr ""
+
+#: inc/theme-settings/csf-customizer.php:47
+msgid ""
+"This is theme secondary color, means it'll affect most of elements that have "
+"default color of our theme secondary color"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:62
+#: inc/theme-settings/csf-metabox.php:141
+#: inc/theme-settings/csf-options.php:254
+#: inc/theme-settings/csf-options.php:688
+msgid "Title"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:833
+#: inc/theme-settings/csf-options.php:842
+#: inc/theme-settings/csf-options.php:887
+msgid "Typography"
+msgstr ""
+
+#: inc/theme-settings/csf-shortcode-options.php:41
+#: inc/theme-settings/csf-metabox.php:151
+msgid "URL"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:611
+msgid ""
+"use  <mark>{copy}</mark> for copyright symbol, use <mark>{year}</mark> for "
+"current year, "
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:21
+msgid "Video Post Format Options"
+msgstr ""
+
+#: inc/theme-settings/csf-metabox.php:68
+msgid "Width & Padding"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:111
+#: inc/theme-settings/csf-group-fields.php:120
+#: inc/theme-settings/csf-group-fields.php:136
+#: inc/theme-settings/csf-group-fields.php:175
+#: inc/theme-settings/csf-group-fields.php:302
+#: inc/theme-settings/csf-group-fields.php:311
+#: inc/theme-settings/csf-group-fields.php:323
+#: inc/theme-settings/csf-group-fields.php:332
+#: inc/theme-settings/csf-group-fields.php:371
+#: inc/theme-settings/csf-group-fields.php:380
+#: inc/theme-settings/csf-group-fields.php:389
+msgid "Yes"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:226
+msgid "you can <mark> show/hide</mark> button of header four navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:494
+msgid "you can <mark> show/hide</mark> button of header seven info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:448
+msgid "you can <mark> show/hide</mark> button of header seven navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:400
+msgid "you can <mark> show/hide</mark> button of header six info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:354
+msgid "you can <mark> show/hide</mark> button of header six navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:185
+msgid "you can <mark> show/hide</mark> button of header three navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:144
+#: inc/theme-settings/csf-options.php:313
+msgid "you can <mark> show/hide</mark> button of header two info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:711
+msgid "you can change <mark>button text</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:704
+msgid "you can change <mark>paragraph</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:697
+msgid "you can change <mark>sub title</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:690
+msgid "you can change <mark>title</mark> of 404 page"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:934
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:455
+msgid "you can set <mark> button </mark> icon for header seven navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:361
+msgid "you can set <mark> button </mark> icon for header six navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:469
+msgid "you can set <mark> button</mark> subtitle for header seven navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:375
+msgid "you can set <mark> button</mark> subtitle for header six navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:240
+msgid "you can set <mark> button</mark> text for header four navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:501
+#: inc/theme-settings/csf-options.php:508
+msgid "you can set <mark> button</mark> text for header seven info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:476
+msgid "you can set <mark> button</mark> text for header seven navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:407
+#: inc/theme-settings/csf-options.php:414
+msgid "you can set <mark> button</mark> text for header six info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:382
+msgid "you can set <mark> button</mark> text for header six navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:199
+msgid "you can set <mark> button</mark> text for header three navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:151
+#: inc/theme-settings/csf-options.php:158
+#: inc/theme-settings/csf-options.php:320
+#: inc/theme-settings/csf-options.php:327
+msgid "you can set <mark> button</mark> text for header two info bar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:233
+msgid "you can set <mark> button</mark> title for header four navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:462
+msgid "you can set <mark> button</mark> title for header seven navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:368
+msgid "you can set <mark> button</mark> title for header six navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:192
+msgid "you can set <mark> button</mark> title for header three navbar"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:362
+msgid "you can set <mark> excerpt length</mark> for post."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:486
+msgid "you can set <mark> shortcode</mark> for header seven info bar left side"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:514
+msgid ""
+"you can set <mark> shortcode</mark> for header seven info bar right side"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:392
+msgid "you can set <mark> shortcode</mark> for header six info bar left side"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:420
+msgid "you can set <mark> shortcode</mark> for header six info bar right side"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:136
+#: inc/theme-settings/csf-options.php:250
+#: inc/theme-settings/csf-options.php:272
+#: inc/theme-settings/csf-options.php:305
+msgid "you can set <mark> shortcode</mark> for header two info bar left side"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:540
+msgid "you can set <mark>background</mark> for breadcrumb"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:900
+msgid ""
+"you can set <mark>font</mark> for  for heading tag .eg: h1,h2mh3,h4,h5,h6"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:856
+msgid ""
+"you can set <mark>font</mark> for all html tags (if not use different "
+"heading font)"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:76
+msgid "you can set <mark>icon</mark> for back to top."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:104
+msgid ""
+"you can set <mark>navbar type</mark> transparent type or solid background."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:135
+msgid "you can set <mark>ON / OFF</mark> to set page container full width."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:174
+msgid "you can set <mark>ON / OFF</mark> to set page content spacing."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:388
+msgid "you can set <mark>ON / OFF</mark> to show / hide post share."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:379
+msgid "you can set <mark>ON / OFF</mark> to show / hide post tags."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:301
+msgid "you can set <mark>ON / OFF</mark> to show / hide posted by."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:322
+#: inc/theme-settings/csf-group-fields.php:370
+msgid "you can set <mark>ON / OFF</mark> to show / hide posted category."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:310
+msgid "you can set <mark>ON / OFF</mark> to show / hide posted on."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:331
+msgid "you can set <mark>ON / OFF</mark> to show / hide read more button."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:119
+msgid "you can set <mark>ON / OFF</mark> to show/hide page breadcrumb."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:110
+msgid "you can set <mark>ON / OFF</mark> to show/hide page title."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:57
+msgid "you can set <mark>overlay color</mark> for breadcrumb background image"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:159
+msgid "you can set <mark>Padding Bottom</mark> for page container."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:195
+#: inc/theme-settings/csf-group-fields.php:274
+#: inc/theme-settings/csf-options.php:729
+#: inc/theme-settings/csf-options.php:818
+msgid "you can set <mark>Padding Bottom</mark> for page content area."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:207
+msgid "you can set <mark>Padding Left</mark> for page content area."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:219
+msgid "you can set <mark>Padding Right</mark> for page content area."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:148
+msgid "you can set <mark>Padding Top</mark> for page container."
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:183
+#: inc/theme-settings/csf-group-fields.php:263
+#: inc/theme-settings/csf-options.php:718
+#: inc/theme-settings/csf-options.php:807
+msgid "you can set <mark>Padding Top</mark> for page content area."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:629
+msgid "you can set <mark>padding</mark> for copyright area bottom"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:617
+msgid "you can set <mark>padding</mark> for copyright area top"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:588
+msgid "you can set <mark>padding</mark> for footer bottom"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:576
+msgid "you can set <mark>padding</mark> for footer top"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:49
+msgid "you can set <mark>Yes / No</mark> to enable/disable preloader"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:604
+msgid "you can set <mark>Yes / No</mark> to set copyright area spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:569
+msgid "you can set <mark>Yes / No</mark> to set footer spacing"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:68
+msgid "you can set <mark>Yes / No</mark> to show/hide back to top"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:533
+msgid "you can set <mark>Yes / No</mark> to show/hide breadcrumb"
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:882
+msgid "you can set <mark>yes</mark> to select different heading font"
+msgstr ""
+
+#: inc/theme-settings/csf-group-fields.php:340
+#: inc/theme-settings/csf-group-fields.php:348
+msgid "you can set read more <mark>button text</mark> to button text."
+msgstr ""
+
+#: inc/theme-settings/csf-options.php:105
+#: inc/theme-settings/csf-options.php:125
+#: inc/theme-settings/csf-options.php:178
+#: inc/theme-settings/csf-options.php:219
+#: inc/theme-settings/csf-options.php:295
+#: inc/theme-settings/csf-options.php:347
+#: inc/theme-settings/csf-options.php:441
+msgid ""
+"you can upload <mark> logo</mark> here it will overwrite customizer uploaded "
+"logo"
+msgstr ""
+
+#: inc/comments-modifications.php:44
+msgid "Your comment is awaiting moderation."
+msgstr ""

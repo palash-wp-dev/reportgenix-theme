@@ -1,0 +1,49 @@
+/* Career Css */
+
+.join-area {}
+
+.join-image-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.join-wrapper {
+    @include responsive(allPhone) {
+        margin-top: 20px;
+    }
+}
+
+.join-shape {
+    img {
+        position: absolute;
+        z-index: -1;
+        &:nth-child(1) {
+            top: 0;
+            right: 30px;
+            animation: 20s round-rotate linear infinite;
+        }
+        &:nth-child(2) {
+            bottom: 100px;
+            left: -50px;
+            animation: 5s leftToRight linear infinite;
+            @include responsive(sm) {
+                left: 0;
+            }
+        }
+    }
+}
+
+@keyframes leftToRight {
+    0% {
+        transform: translateX(-140px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(140px);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,46 @@
+/* Features area */
+
+.features-area {}
+
+.single-features {
+    background-color: $white;
+    @include box-shadow(0, 0, 10px, rgba($steam-color, .4));
+    padding: 20px 10px;
+    @include transition(.3s);
+    position: relative;
+    z-index: 2;
+    &:hover {
+        @include transform(scale(1.2));
+        &:before,
+        &::after {
+            width: 100%;
+        }
+    }
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 0;
+        top: 0;
+        left: 50%;
+        @include transform(translateX(-50%));
+        background-color: var(--main-color-one);
+        @include transition(.4s);
+    }
+    &::after {
+        top: auto;
+        bottom: 0;
+    }
+    &-icon {
+        img {
+            max-width: 70px;
+        }
+    }
+    &-contents {
+        &-title {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}

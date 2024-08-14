@@ -1,0 +1,92 @@
+/* Experties Css */
+
+.experties-area {}
+
+.single-experties-padding {
+    padding: 30px;
+}
+
+.single-experties-bg {
+    background-color: $white
+}
+
+.single-experties {
+    @include box-shadow(0, 0, 20px, rgba($steam-color, .4));
+    @include transition(300ms);
+    &:hover {
+        background-color: var(--main-color-one);
+        @include transform(scale(1.1));
+        &::before {
+            height: 100%;
+            width: 100%;
+        }
+        .single-experties {
+            &-icon {
+                background-color: $white;
+                &::before {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            &-contents {
+                &-title {
+                    color: $white;
+                }
+                &-para {
+                    color: $white;
+                }
+            }
+        }
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%, -50%));
+        background-color: var(--main-color-one);
+        height: 0;
+        width: 0;
+        z-index: -1;
+        @include transition(500ms);
+    }
+    &-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        margin: auto;
+        background-color: var(--section-bg);
+        border-radius: 50%;
+        @include transition(300ms);
+        position: relative;
+        z-index: 2;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            @include transform(translate(-50%, -50%));
+            background-color: $white;
+            height: 0;
+            width: 0;
+            z-index: -1;
+            @include transition(400ms);
+        }
+        img {
+            max-width: 30px;
+        }
+    }
+    &-contents {
+        &-title {
+            font-size: 24px;
+            line-height: 28px;
+            @include transition(300ms);
+        }
+        &-para {
+            @include transition(300ms);
+        }
+    }
+}

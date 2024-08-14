@@ -1,0 +1,107 @@
+/*---------------------------------------
+    11. Faq
+---------------------------------------*/
+
+.faq-contents {
+    .faq-item {
+        border: 1px solid rgba($steam-color, .5);
+        &.open {
+            overflow: hidden;
+            background-color: var(--section-bg);
+            border: 0;
+            .faq-title {
+                border-radius: 0;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                &::after {
+                    content: "\f068";
+                }
+            }
+            .faq-panel {
+                .faq-para {
+                    color: var(--light-color);
+                }
+            }
+        }
+        &.active {
+            .faq-panel {
+                display: block;
+            }
+        }
+        &:not(:first-child) {
+            margin-top: 24px;
+        }
+        .faq-title {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 32px;
+            @include transition(300ms);
+            margin: -3px 30px 0 0;
+            padding: 20px 30px;
+            position: relative;
+            z-index: 1;
+            cursor: pointer;
+            @include responsive(xl) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+            @include responsive(lg) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+            @include responsive(allPhone) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+            @include responsive(xs) {
+                font-size: 18px;
+                margin: -3px 20px 0 0;
+                padding: 20px 20px;
+            }
+            @include responsive(vxxs) {
+                font-size: 16px;
+            }
+            &::after {
+                @include fontawesomeIcon("\f067");
+                position: absolute;
+                right: 0px;
+                top: 50%;
+                transform: translateY(-50%);
+                @include transition(300ms);
+                font-size: 15px;
+                @include responsive(xs) {
+                    font-size: 14px;
+                }
+            }
+        }
+        .faq-panel {
+            padding-top: 15px;
+            display: none;
+            .faq-para {
+                font-size: 16px;
+                line-height: 28px;
+                color: var(--light-color);
+                margin: 0;
+                padding: 0px 30px 20px 30px;
+                @include responsive(xs) {
+                    padding: 0 20px 20px 20px;
+                }
+                @include responsive(sm) {
+                    font-size: 15px;
+                    line-height: 26px;
+                }
+                @include responsive(vxxs) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.question-thumb-wrapper {
+    .thumb {
+        img {
+            animation: 3s floating linear infinite;
+        }
+    }
+}
